@@ -26,7 +26,22 @@ class Dataset(models.Model):
 
 
 class LifecycleStage(models.Model):
-    name = models.CharField(max_length=100)
+    """
+    Lifecycle stages are (almost) always displayed in the right-hand
+    side of the map, to highlight which stages of life the currently-
+    viewed issue affects. They can also be clicked, to filter issues.
+    """
+
+    name  = models.CharField(max_length=100)
+    order = models.IntegerField(help_text=
+        "The order in which this stage occurs in life. " +
+        "Lower is earlier.")
+
+    class Meta:
+        ordering = ("order",)
+
+    def __unicode__(self):
+        return self.name
 
 
 class CrcPart(models.Model):
