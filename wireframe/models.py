@@ -5,6 +5,20 @@
 from django.db import models
 
 
+class AreaType(models.Model):
+    """
+    This model violates normalization a bit, but allows us to avoid
+    hard-coding the various area types (country, governorate, district)
+    into the application.
+    """
+
+    name = models.CharField(max_length=100)
+    parent = models.ForeignKey("self", null=True, blank=True)
+
+    def __unicode__(self):
+        return self.name
+
+
 class Area(models.Model):
     """
     Iraq is divided into 18 governorates, and below that, into 111
@@ -15,6 +29,11 @@ class Area(models.Model):
 
     name   = models.CharField(max_length=100)
     parent = models.ForeignKey("self", null=True, blank=True)
+    type   = models.ForeignKey(AreaType)
+
+    def __unicode__(self):
+        return "%s (%s)" %\
+            (self.name, self.type.name)
 
 
 class AgeGroup(models.Model):

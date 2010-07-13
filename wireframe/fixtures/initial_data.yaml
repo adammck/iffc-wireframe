@@ -1,91 +1,154 @@
 - pk: 1
+  model: wireframe.areatype
+  fields:
+    name: Country
+
+- pk: 2
+  model: wireframe.areatype
+  fields:
+    name: Governorate
+    parent: 1
+
+- pk: 3
+  model: wireframe.areatype
+  fields:
+    name: District
+    parent: 2
+
+
+
+
+- pk: 1
   model: wireframe.area
   fields:
-    name: Basra
+    name: Iraq
+    type: 1
+
+
 - pk: 2
   model: wireframe.area
   fields:
-    name: Najaf
+    name: Basra
+    parent: 1
+    type: 2
 
 - pk: 3
   model: wireframe.area
   fields:
-    name: Baghdad
+    name: Najaf
+    parent: 1
+    type: 2
 
 - pk: 4
   model: wireframe.area
   fields:
-    name: Babil
+    name: Baghdad
+    parent: 1
+    type: 2
 
 - pk: 5
   model: wireframe.area
   fields:
-    name: Dhi Qar
+    name: Babil
+    type: 2
 
 - pk: 6
   model: wireframe.area
   fields:
-    name: At-Ta'mim
+    name: Dhi Qar
+    parent: 1
+    type: 2
 
 - pk: 7
   model: wireframe.area
   fields:
-    name: Salah ad Din
+    name: At-Ta'mim
+    parent: 1
+    type: 2
 
 - pk: 8
   model: wireframe.area
   fields:
-    name: Ninawa
+    name: Salah ad Din
+    parent: 1
+    type: 2
 
 - pk: 9
   model: wireframe.area
   fields:
-    name: Diyala
+    name: Ninawa
+    parent: 1
+    type: 2
 
 - pk: 10
   model: wireframe.area
   fields:
-    name: Wasit
+    name: Diyala
+    parent: 1
+    type: 2
 
 - pk: 11
   model: wireframe.area
   fields:
-    name: Al Muthanna
+    name: Wasit
+    parent: 1
+    type: 2
 
 - pk: 12
   model: wireframe.area
   fields:
-    name: Al-Qādisiyyah
+    name: Al Muthanna
+    parent: 1
+    type: 2
 
 - pk: 13
   model: wireframe.area
   fields:
-    name: Dahuk
+    name: Al-Qādisiyyah
+    parent: 1
+    type: 2
 
 - pk: 14
   model: wireframe.area
   fields:
-    name: Arbil
+    name: Dahuk
+    parent: 1
+    type: 2
 
 - pk: 15
   model: wireframe.area
   fields:
-    name: Maysan
+    name: Arbil
+    parent: 1
+    type: 2
 
 - pk: 16
   model: wireframe.area
   fields:
-    name: Al Anbar
+    name: Maysan
+    parent: 1
+    type: 2
 
 - pk: 17
   model: wireframe.area
   fields:
-    name: Karbala
+    name: Al Anbar
+    parent: 1
+    type: 2
 
 - pk: 18
   model: wireframe.area
   fields:
+    name: Karbala
+    parent: 1
+    type: 2
+
+- pk: 19
+  model: wireframe.area
+  fields:
     name: As Sulaymaniyah
+    parent: 1
+    type: 2
 
 
 
