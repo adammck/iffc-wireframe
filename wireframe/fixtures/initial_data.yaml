@@ -1,4 +1,96 @@
 - pk: 1
+  model: wireframe.area
+  fields:
+    name: Basra
+- pk: 2
+  model: wireframe.area
+  fields:
+    name: Najaf
+
+- pk: 3
+  model: wireframe.area
+  fields:
+    name: Baghdad
+
+- pk: 4
+  model: wireframe.area
+  fields:
+    name: Babil
+
+- pk: 5
+  model: wireframe.area
+  fields:
+    name: Dhi Qar
+
+- pk: 6
+  model: wireframe.area
+  fields:
+    name: At-Ta'mim
+
+- pk: 7
+  model: wireframe.area
+  fields:
+    name: Salah ad Din
+
+- pk: 8
+  model: wireframe.area
+  fields:
+    name: Ninawa
+
+- pk: 9
+  model: wireframe.area
+  fields:
+    name: Diyala
+
+- pk: 10
+  model: wireframe.area
+  fields:
+    name: Wasit
+
+- pk: 11
+  model: wireframe.area
+  fields:
+    name: Al Muthanna
+
+- pk: 12
+  model: wireframe.area
+  fields:
+    name: Al-Qādisiyyah
+
+- pk: 13
+  model: wireframe.area
+  fields:
+    name: Dahuk
+
+- pk: 14
+  model: wireframe.area
+  fields:
+    name: Arbil
+
+- pk: 15
+  model: wireframe.area
+  fields:
+    name: Maysan
+
+- pk: 16
+  model: wireframe.area
+  fields:
+    name: Al Anbar
+
+- pk: 17
+  model: wireframe.area
+  fields:
+    name: Karbala
+
+- pk: 18
+  model: wireframe.area
+  fields:
+    name: As Sulaymaniyah
+
+
+
+
+- pk: 1
   model: wireframe.lifecyclestage
   fields:
     name: Pregnancy

@@ -6,6 +6,13 @@ from django.db import models
 
 
 class Area(models.Model):
+    """
+    Iraq is divided into 18 governorates, and below that, into 111
+    districts. (There are sub-districts below that, but we're not
+    concerning ourselves with that, since we have no data.) This model
+    stores the entire structure in a recursive hierarchy.
+    """
+
     name   = models.CharField(max_length=100)
     parent = models.ForeignKey("self", null=True, blank=True)
 
