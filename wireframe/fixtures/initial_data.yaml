@@ -200,3 +200,21 @@
   fields:
     name: Household Protection
     order: 8
+
+
+
+
+- pk: 1
+  model: wireframe.crcpart
+  fields:
+    number: 1
+
+- pk: 2
+  model: wireframe.crcpart
+  fields:
+    number: 2
+
+- pk: 3
+  model: wireframe.crcpart
+  fields:
+    number: 3

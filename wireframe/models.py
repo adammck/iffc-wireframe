@@ -71,13 +71,40 @@ class LifecycleStage(models.Model):
 
 
 class CrcPart(models.Model):
-    name     = models.CharField(max_length=100)
-    preamble = models.TextField(blank=True)
+    """
+    The CRC is broken up into three parts. This model simply provides
+    a foreign key for CRC articles to link to. It may not be exposed in
+    the final UI.
+    """
+
+    number = models.IntegerField()
+
+    class Meta:
+        verbose_name = "CRC part"
+        ordering = ("number",)
+
+    def __unicode__(self):
+        return "Part %d" %\
+            self.number
 
 
 class CrcArticle(models.Model):
-    part = models.ForeignKey(CrcPart)
-    text = models.TextField()
+    """
+    The CRC articles are a very simple number/text pair. The numbers are
+    unique (not relative to the part). The parts are just groupings.
+    """
+
+    part   = models.ForeignKey(CrcPart)
+    number = models.IntegerField(unique=True)
+    text   = models.TextField()
+
+    class Meta:
+        verbose_name = "CRC article"
+        ordering = ("number",)
+
+    def __unicode__(self):
+        return "Article %d" %\
+            self.number
 
 
 class WfcGoal(models.Model):
