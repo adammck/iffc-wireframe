@@ -1,0 +1,47 @@
+- pk: 1
+  model: wireframe.lifecyclestage
+  fields:
+    name: Pregnancy
+    order: 1
+
+- pk: 2
+  model: wireframe.lifecyclestage
+  fields:
+    name: Birth
+    order: 2
+
+- pk: 3
+  model: wireframe.lifecyclestage
+  fields:
+    name: 0-1 years
+    order: 3
+
+- pk: 4
+  model: wireframe.lifecyclestage
+  fields:
+    name: Under 5 years
+    order: 4
+
+- pk: 5
+  model: wireframe.lifecyclestage
+  fields:
+    name: Basic school age
+    order: 5
+
+- pk: 6
+  model: wireframe.lifecyclestage
+  fields:
+    name: Youth
+    order: 6
+
+- pk: 7
+  model: wireframe.lifecyclestage
+  fields:
+    name: Household Sanitation
+    order: 7
+
+- pk: 8
+  model: wireframe.lifecyclestage
+  fields:
+    name: Household Protection
+    order: 8
