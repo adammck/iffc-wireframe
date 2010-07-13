@@ -1492,3 +1492,375 @@
               International law in force for that State.
             </p></li>
           </ol>"
+
+- pk: 42
+  model: wireframe.crcarticle
+  fields:
+    part: 2
+    number: 42
+    text: "<p>
+            States Parties undertake to make the principles and
+            provisions of the Convention widely known, by appropriate
+            and active means, to adults and children alike.
+          </p>"
+
+- pk: 43
+  model: wireframe.crcarticle
+  fields:
+    part: 2
+    number: 43
+    text: "<ol>
+            <li><p>
+              For the purpose of examining the progress made by States
+              Parties in achieving the realization of the obligations
+              undertaken in the present Convention, there shall be
+              established a Committee on the Rights of the Child, which
+              shall carry out the functions hereinafter provided.
+            </p></li>
+            <li><p>
+              The Committee shall consist of eighteen experts of high
+              moral standing and recognized competence in the field
+              covered by this Convention.1/  The members of the
+              Committee shall be elected by States Parties from among
+              their nationals and shall serve in their personal
+              capacity, consideration being given to equitable
+              geographical distribution, as well as to the principal
+              legal systems.
+            </p></li>
+            <li><p>
+              The members of the Committee shall be elected by secret
+              ballot from a list of persons nominated by States Parties.
+              Each State Party may nominate one person from among its
+              own nationals.
+            </p></li>
+            <li><p>
+              The initial election to the Committee shall be held no
+              later than six months after the date of the entry into
+              force of the present Convention and thereafter every
+              second year. At least four months before the date of each
+              election, the Secretary-General of the United Nations
+              shall address a letter to States Parties inviting them to
+              submit their nominations within two months. The
+              Secretary-General shall subsequently prepare a list in
+              alphabetical order of all persons thus nominated,
+              indicating States Parties which have nominated them, and
+              shall submit it to the States Parties to the present
+              Convention.
+            </p></li>
+            <li><p>
+              The elections shall be held at meetings of States Parties
+              convened by the Secretary-General at United Nations
+              Headquarters. At those meetings, for which two thirds of
+              States Parties shall constitute a quorum, the persons
+              elected to the Committee shall be those who obtain the
+              largest number of votes and an absolute majority of the
+              votes of the representatives of States Parties present and
+              voting.
+            </p></li>
+            <li><p>
+              The members of the Committee shall be elected for a term
+              of four years. They shall be eligible for re-election if
+              renominated. The term of five of the members elected at
+              the first election shall expire at the end of two years;
+              immediately after the first election, the names of these
+              five members shall be chosen by lot by the Chairman of the
+              meeting.
+            </p></li>
+            <li><p>
+              If a member of the Committee dies or resigns or declares
+              that for any other cause he or she can no longer perform
+              the duties of the Committee, the State Party which
+              nominated the member shall appoint another expert from
+              among its nationals to serve for the remainder of the
+              term, subject to the approval of the Committee.
+            </p></li>
+            <li><p>
+              The Committee shall establish its own rules of procedure.
+            </p></li>
+            <li><p>
+              The Committee shall elect its officers for a period of two
+              years.
+            </p></li>
+            <li><p>
+              The meetings of the Committee shall normally be held at
+              United Nations Headquarters or at any other convenient
+              place as determined by the Committee. The Committee shall
+              normally meet annually. The duration of the meetings of
+              the Committee shall be determined, and reviewed, if
+              necessary, by a meeting of the States Parties to the
+              present Convention, subject to the approval of the General
+              Assembly.
+            </p></li>
+            <li><p>
+              The Secretary-General of the United Nations shall provide
+              the necessary staff and facilities for the effective
+              performance of the functions of the Committee under the
+              present Convention.
+            </p></li>
+            <li><p>
+              With the approval of the General Assembly, the members of
+              the Committee established under the present Convention
+              shall receive emoluments from United Nations resources on
+              such terms and conditions as the Assembly may decide.
+            </p></li>
+          </ol>"
+
+- pk: 44
+  model: wireframe.crcarticle
+  fields:
+    part: 2
+    number: 44
+    text: "<ol>
+            <li>
+              <p>
+                States Parties undertake to submit to the Committee,
+                through the Secretary-General of the United Nations,
+                reports on the measures they have adopted which give
+                effect to the rights recognized herein and on the
+                progress made on the enjoyment of those rights:
+              </p>
+              <ol>
+                <li><p>
+                  Within two years of the entry into force of the
+                  Convention for the State Party concerned;
+                </p></li>
+                <li><p>
+                  Thereafter every five years.
+                </p></li>
+              </ol>
+            </li>
+            <li><p>
+              Reports made under the present article shall indicate
+              factors and difficulties, if any, affecting the degree of
+              fulfilment of the obligations under the present
+              Convention. Reports shall also contain sufficient
+              information to provide the Committee with a comprehensive
+              understanding of the implementation of the Convention in
+              the country concerned.
+            </p></li>
+            <li><p>
+              A State Party which has submitted a comprehensive initial
+              report to the Committee need not, in its subsequent
+              reports submitted in accordance with paragraph 1 (b) of
+              the present article, repeat basic information previously
+              provided.
+            </p></li>
+            <li><p>
+              The Committee may request from States Parties further
+              information relevant to the implementation of the
+              Convention.
+            </p></li>
+            <li><p>
+              The Committee shall submit to the General Assembly,
+              through the Economic and Social Council, every two years,
+              reports on its activities.
+            </p></li>
+            <li><p>
+              States Parties shall make their reports widely available
+              to the public in their own countries.
+            </p></li>
+          </ol>"
+
+- pk: 45
+  model: wireframe.crcarticle
+  fields:
+    part: 2
+    number: 45
+    text: "<p>
+            In order to foster the effective implementation of the
+            Convention and to encourage international co-operation in
+            the field covered by the Convention:
+           </p>
+           <ol>
+            <li><p>
+              The specialized agencies, the United Nations Children's
+              Fund, and other United Nations organs shall be entitled to
+              be represented at the consideration of the implementation
+              of such provisions of the present Convention as fall
+              within the scope of their mandate. The Committee may
+              invite the specialized agencies, the United Nations
+              Children's Fund and other competent bodies as it may
+              consider appropriate to provide expert advice on the
+              implementation of the Convention in areas falling within
+              the scope of their respective mandates. The Committee may
+              invite the specialized agencies, the United Nations
+              Children's Fund, and other United Nations organs to submit
+              reports on the implementation of the Convention in areas
+              falling within the scope of their activities;
+            </p></li>
+            <li><p>
+              The Committee shall transmit, as it may consider
+              appropriate, to the specialized agencies, the United
+              Nations Children's Fund and other competent bodies, any
+              reports from States Parties that contain a request, or
+              indicate a need, for technical advice or assistance, along
+              with the Committee's observations and suggestions, if any,
+              on these requests or indications;
+            </p></li>
+            <li><p>
+              The Committee may recommend to the General Assembly to
+              request the Secretary-General to undertake on its behalf
+              studies on specific issues relating to the rights of the
+              child;
+            </p></li>
+            <li></p>
+              The Committee may make suggestions and general
+              recommendations based on information received pursuant to
+              articles 44 and 45 of the present Convention. Such
+              suggestions and general recommendations shall be
+              transmitted to any State Party concerned and reported to
+              the General Assembly, together with comments, if any, from
+              States Parties.
+            <p></li>
+          </ol>"
+
+- pk: 46
+  model: wireframe.crcarticle
+  fields:
+    part: 3
+    number: 46
+    text: "<p>
+            The present Convention shall be open for signature by all
+            States.
+          </p>"
+
+- pk: 47
+  model: wireframe.crcarticle
+  fields:
+    part: 3
+    number: 47
+    text: "<p>
+            The present Convention is subject to ratification.
+            Instruments of ratification shall be deposited with the
+            Secretary-General of the United Nations.
+          </p>"
+
+- pk: 48
+  model: wireframe.crcarticle
+  fields:
+    part: 3
+    number: 48
+    text: "<p>
+            The present Convention shall remain open for accession by
+            any State. The instruments of accession shall be deposited
+            with the Secretary-General of the United Nations.
+          </p>"
+
+- pk: 49
+  model: wireframe.crcarticle
+  fields:
+    part: 3
+    number: 49
+    text: "<ol>
+            <li><p>
+              The present Convention shall enter into force on the
+              thirtieth day following the date of deposit with the
+              Secretary-General of the United Nations of the twentieth
+              instrument of ratification or accession.
+            </p></li>
+            <li><p>
+              For each State ratifying or acceding to the Convention
+              after the deposit of the twentieth instrument of
+              ratification or accession, the Convention shall enter into
+              force on the thirtieth day after the deposit by such State
+              of its instrument of ratification or accession.
+            </p></li>
+          </ol>"
+
+- pk: 50
+  model: wireframe.crcarticle
+  fields:
+    part: 3
+    number: 50
+    text: "<ol>
+            <li><p>
+              Any State Party may propose an amendment and file it with
+              the Secretary-General of the United Nations. The
+              Secretary-General shall thereupon communicate the proposed
+              amendment to States Parties, with a request that they
+              indicate whether they favour a conference of States
+              Parties for the purpose of considering and voting upon the
+              proposals. In the event that, within four months from the
+              date of such communication, at least one third of the
+              States Parties favour such a conference, the
+              Secretary-General shall convene the conference under the
+              auspices of the United Nations. Any amendment adopted by a
+              majority of States Parties present and voting at the
+              conference shall be submitted to the General Assembly for
+              approval.
+            </p></li>
+            <li><p>
+              An amendment adopted in accordance with paragraph 1 of the
+              present article shall enter into force when it has been
+              approved by the General Assembly of the United Nations and
+              accepted by a two-thirds majority of States Parties.
+            </p></li>
+            <li><p>
+              When an amendment enters into force, it shall be binding
+              on those States Parties which have accepted it, other
+              States Parties still being bound by the provisions of the
+              present Convention and any earlier amendments which they
+              have accepted.
+            </p></li>
+          </ol>"
+
+- pk: 51
+  model: wireframe.crcarticle
+  fields:
+    part: 3
+    number: 51
+    text: "<ol>
+            <li><p>
+              The Secretary-General of the United Nations shall receive
+              and circulate to all States the text of reservations made
+              by States at the time of ratification or accession.
+            </p></li>
+            <li><p>
+              A reservation incompatible with the object and purpose of
+              the present Convention shall not be permitted.
+            </p></li>
+            <li><p>
+              Reservations may be withdrawn at any time by notification
+              to that effect addressed to the Secretary-General of the
+              United Nations, who shall then inform all States. Such
+              notification shall take effect on the date on which it is
+              received by the Secretary-General.
+            </p></li>
+          </ol>"
+
+- pk: 52
+  model: wireframe.crcarticle
+  fields:
+    part: 3
+    number: 52
+    text: "<p>
+            A State Party may denounce the present Convention by written
+            notification to the Secretary-General of the United Nations.
+            Denunciation becomes effective one year after the date of
+            receipt of the notification by the Secretary-General.
+          </p>"
+
+- pk: 53
+  model: wireframe.crcarticle
+  fields:
+    part: 3
+    number: 53
+    text: "<p>
+            The Secretary-General of the United Nations is designated as
+            the depositary of the present Convention.
+          </p>"
+
+- pk: 54
+  model: wireframe.crcarticle
+  fields:
+    part: 3
+    number: 54
+    text: "<p>
+            The original of the present Convention, of which the Arabic,
+            Chinese, English, French, Russian and Spanish texts are
+            equally authentic, shall be deposited with the
+            Secretary-General of the United Nations. In witness thereof
+            the undersigned plenipotentiaries, being duly authorized
+            thereto by their respective Governments, have signed the
+            present Convention.
+          </p>"
